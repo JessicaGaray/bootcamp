@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+
+p{
+  font-size: 1em !important;
+  font-family: "Raleway";
+}
+
+
+.img-rounded{
+  border-radius: 50%;
+}
+
+h5,h1,h4{
+  font-family: "Inconsolata";
+}
+
+
+#jumbo{
+  background-image: url(../img/mekong-green.png);
+  background-size: cover;
+  background-attachment: fixed;
+}

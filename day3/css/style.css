@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+.jumbotron{
+    background-image: url(../img/leaves-pattern.png);
+}
+
+p{
+  font-size: 1em !important;
+}
+
+#cardsection{
+  background-color: #000;
+}

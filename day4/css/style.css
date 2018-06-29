@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body{
+  position: relative;
+}
+#section1{
+    background-image: url(../img/food.png);
+}
+#section3{
+  background-image: url(../img/stripes-light.png);
+}
+
+p{
+  font-size: 1em !important;
+}
+
+#cardsection{
+}
