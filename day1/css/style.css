@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: font1;
+  src:url(font/Inconsolata-Bold.ttf);
+}
+@font-face {
+  font-family: font2;
+  src:url(font/Raleway-Regular.ttf);
+}
+h1{
+  font-family: font1;
+  letter-spacing: 3px;
+  font-variant: small-caps;
+  text-shadow: 2px 2px 2px #000;
+  font-size: 3em;
+}
+*{/**all parts have margin 0*/
+  margin: 0;
+}
+  p{
+  font-family: font2;
+  font-size: 1em;
+}
+
+body{
+  margin:0;
+}
+header{
+  background-image: url(../image/plant.jpg);
+  height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 13%;
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.circle{
+  border-radius: 50%;
+
+  /** you can change all sides
+  border-bottom-left-radius:500px;
+  border-bottom-right-radius:500px;
+  border-top-left-radius:500px;
+  border-top-right-radius:500px;
+  */
+}
+header h2{
+  text-align: center;
+  font-family: font1;
+  font-size: 3em;
+  color: #FFF;
+  letter-spacing: 0.5em;
+}
+#section1{
+  padding-top: 5vh;
+  min-height: 20vh;
+  max-height: 100vh;
+  background-color: #FFF;
+}
+#section1 h3{
+  font-family: font1;
+  text-align: center;
+  font-size: 2.5em;
+}
+#section1 p{
+  font-family: font2;
+  color: #000;
+  font-size: 1.5em;
+  text-align: center;
+}
+.container{
+  margin: 0 auto;/*center container*/
+  width: 1000px;
+}
+.left{
+  float: left;
+  width: 45%;
+}
+.right{
+  float: right;
+  width: 45%;
+  background-color: rgba(0,0,0,0.7);
+  height: 480px;
+  color: #FFF;
+  padding: 10px;
+}
+#section2{
+  background-image: url(../image/city.jpg);
+  min-height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  display: block;
+  padding-top: 10%;
+  padding-bottom: 40%;
+
+}
+#section2 h3{
+  font-family: font1;
+  font-size: 2.5em;
+}
+#section2p{
+  font-family: font2;
+  color:#000;
+  font-size: 1.5em;
+}
